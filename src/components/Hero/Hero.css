@@ -1,0 +1,108 @@
+.hero_container {
+    /* border: 5px solid white; */
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    padding: 0 80px;
+
+    background: #00318F;
+    background: repeating-radial-gradient( ellipse farthest-corner at top left, #002D62 0%, #4987FD 28%, #007FFF 52% ), repeating-radial-gradient( circle farthest-corner at top right, #002D62 0%, #00308F 28%, #4987FD 52% );
+    /* background: rgb(0,48,143);
+    background: linear-gradient(90deg, rgba(0,48,143,1) 0%, rgba(3,70,148,1) 38%, rgba(49,140,231,1) 80%, rgba(108,180,238,1) 100%); */
+
+}
+
+.hero_wrapper {
+    width: 100%;
+    display: flex;
+    max-width: 1000px;
+}
+
+.info_container,
+.img_container {
+    flex: 1;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info_container h2 {
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+/* .info_container h2 > p:nth-child(2) {
+    font-size: 2rem;
+} */
+
+h2>p>.greet {
+    /* color: rgb(170,107, 228); */
+    font-weight: bold;
+    /* color: darkred; */
+    /* color: white; */
+}
+
+h2>p>.name {
+    /* color: darkred; */
+    color: #ffc232;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+}
+
+h2>p>.passion {
+    /* color: greenyellow; */
+}
+
+h2>p:nth-child(3) {
+    font-weight: bold;
+    text-decoration: underline;
+    /* color: mediumspringgreen; */
+    color: darkred;
+    color: #ffc232;
+}
+
+.text_cursor {
+    font-weight: 400;
+}
+
+.text_cursor.blink {
+    opacity: 0;
+}
+
+.img_container {
+    position: relative;
+}
+
+.img_container img {
+    position: absolute;
+    width: 80%;
+}
+
+@media screen and (max-width: 920px) {
+    .hero_container {
+        padding: 0 20px;
+    }
+    .info_container h2{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero_wrapper {
+        flex-direction: column;
+    }
+    .img_container img {
+        height: 95%;
+        width: unset;
+    }
+}
+@media screen and (max-width: 480px) {
+    .hero_container {
+        padding: 0 10px;
+    }
+    .info_container h2{
+        font-size: 1.5rem;
+    }
+    
+}

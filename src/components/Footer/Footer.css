@@ -1,0 +1,40 @@
+.footer_container {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 80px; */
+    border-top: 1px solid white;
+}
+
+.footer_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* gap: 20px; */
+    max-width: 1000px;
+    /* border: 2px solid red; */
+    /* align-items: flex-start; */
+}
+
+p.footer_section {
+    text-align: center;
+}
+
+.footer_section > span.logo_txt{
+    font-weight: bold;
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.footer_section > span.thank_txt > i{
+    color: red;
+}
+.footer_section > span.thank_txt > span.name{
+    color: red;
+    font-family: 'Dancing Script', cursive;
+}
