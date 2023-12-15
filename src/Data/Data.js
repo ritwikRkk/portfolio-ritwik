@@ -109,8 +109,8 @@ const projectsData = [
     {
         name: "PrimeCart",
         desc: "A MERN stack Ecommerce website, where you can shop latest and trending products, save the items in your cart/wishlist and can checkout by making payment, by creating your account.",
-        link: "https://primecart-two.vercel.app/",
-        readmore_link: "https://github.com/ritwikRkk/PrimeCart-client",
+        link: "https://primecart-one.vercel.app/",
+        readmore_link: "https://github.com/ritwikRkk/primecart",
         img: "./images/projects/PrimeCart.png"
     },
 ]
