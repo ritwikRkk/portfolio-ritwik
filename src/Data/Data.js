@@ -58,18 +58,25 @@ const designSkillsData = [
 
 const projectsData = [
     {
-        name: "Tic Tac Toe",
-        desc: "A Tic Tac Toe game using ReactJS, offering an interactive and enjoyable gaming experience.",
-        link: "https://tictactoe-two-mu.vercel.app/",
-        readmore_link: "https://github.com/ritwikRkk/tictactoe",
-        img: "./images/projects/tictactoe.png",
-    },
-    {
         name: "Analouge Clock",
         desc: "An interactive analog clock website using HTML, CSS, and JavaScript, offering a timeless and aesthetic way to check the time.",
         link: "https://analouge-clock.pages.dev/",
         readmore_link: "https://github.com/ritwikRkk/analouge-clock",
         img: "./images/projects/AnalougeClock.png"
+    },
+    {
+        name: "Magic Library",
+        desc: "A library website using HTML, CSS, and Bootstrap, offering easy access to a digital collection of books and resources.",
+        link: "https://magic-library.pages.dev/",
+        readmore_link: "https://github.com/ritwikRkk/magic-library",
+        img: "./images/projects/MagicLibrary.png"
+    },
+    {
+        name: "Tic Tac Toe",
+        desc: "A Tic Tac Toe game using ReactJS, offering an interactive and enjoyable gaming experience.",
+        link: "https://tictactoe-two-mu.vercel.app/",
+        readmore_link: "https://github.com/ritwikRkk/tictactoe",
+        img: "./images/projects/tictactoe.png",
     },
     {
         name: "Magic Notes",
@@ -86,18 +93,11 @@ const projectsData = [
         img: "./images/projects/isudoku.png"
     },
     {
-        name: "Magic Library",
-        desc: "A library website using HTML, CSS, and Bootstrap, offering easy access to a digital collection of books and resources.",
-        link: "https://magic-library.pages.dev/",
-        readmore_link: "https://github.com/ritwikRkk/magic-library",
-        img: "./images/projects/MagicLibrary.png"
-    },
-    {
-        name: "PrimeFlix",
-        desc: "A MERN stack Movie website, where you can find latest and trending movies/tv-shows, and even comment down your thoughts on it, by creating your account.",
-        link: "https://inotebook-sage.vercel.app/",
-        readmore_link: "https://github.com/ritwikRkk/mern-PrimeFlix",
-        img: "./images/projects/PrimeFlix.png"
+        name: "Laptop checker",
+        desc: "A free online tool to quickly identify and address screen bleeding, dead pixels, and keyboard issues. Detect problems with ease and maintain the visual and functional integrity of your screen and keyboard effortlessly.",
+        link: "https://laptop-checker.pages.dev/",
+        readmore_link: "https://github.com/ritwikRkk/laptop-checker",
+        img: "./images/projects/laptopChecker.png"
     },
     {
         name: "iNotebook",
@@ -105,6 +105,13 @@ const projectsData = [
         link: "https://inotebook-sage.vercel.app/",
         readmore_link: "https://github.com/ritwikRkk/iNoteBook",
         img: "./images/projects/iNotebook.png"
+    },
+    {
+        name: "PrimeFlix",
+        desc: "A MERN stack Movie website, where you can find latest and trending movies/tv-shows, and even comment down your thoughts on it, by creating your account.",
+        link: "https://inotebook-sage.vercel.app/",
+        readmore_link: "https://github.com/ritwikRkk/mern-PrimeFlix",
+        img: "./images/projects/PrimeFlix.png"
     },
     {
         name: "PrimeCart",
