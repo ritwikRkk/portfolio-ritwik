@@ -109,7 +109,7 @@ const projectsData = [
     {
         name: "PrimeFlix",
         desc: "A MERN stack Movie website, where you can find latest and trending movies/tv-shows, and even comment down your thoughts on it, by creating your account.",
-        link: "https://inotebook-sage.vercel.app/",
+        link: "https://primeflix-sage.vercel.app/",
         readmore_link: "https://github.com/ritwikRkk/mern-PrimeFlix",
         img: "./images/projects/PrimeFlix.png"
     },
