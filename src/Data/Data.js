@@ -28,8 +28,12 @@ const ProgrammSkillsData = [
         efficiency: 78
     },
     {
+        name: "PostgreSQL",
+        efficiency: 85
+    },
+    {
         name: "Git",
-        efficiency: 50
+        efficiency: 70
     },
     {
         name: "Bootstrap",

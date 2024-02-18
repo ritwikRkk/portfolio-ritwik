@@ -78,7 +78,7 @@
 
 .navbar__toggle {
     position: absolute;
-    right: 5px;
+    right: 15px;
     cursor: pointer;
     display: none;
     z-index: 3;
@@ -108,6 +108,9 @@
 }
 
 @media screen and (max-width: 768px) {
+    .navbar{
+        padding: 0 20px
+    }
 
     .links {
         color: white;

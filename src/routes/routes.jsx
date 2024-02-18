@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Home from "../pages/Home/Home";
 import { useRef } from "react";
 import Footer from "../components/Footer/Footer";
+import Resume from "../components/Resume/Resume.jsx";
 
 const Layout = () => {
 
@@ -38,6 +39,10 @@ const routes = [
             {
                 path: "/",
                 element: <Home />
+            },
+            {
+                path: "/resume",
+                element: <Resume />
             },
             // {
             //     path: "/product/:id",

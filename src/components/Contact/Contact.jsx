@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./Contact.css";
-import { useOutletContext } from 'react-router-dom';
+import { Link, useOutletContext } from 'react-router-dom';
 
 const Contact = () => {
     const context = useOutletContext();
@@ -86,7 +86,8 @@ const Contact = () => {
                             <a className="social_links" href="https://github.com/ritwikRkk" target="_blank" rel="noreferrer"> <i className="fa-brands fa-github"></i> </a>
                             <a className="social_links" href="https://www.linkedin.com/in/ritwik-kumar-kushwaha" target="_blank" rel="noreferrer"> <i className="fa-brands fa-linkedin"></i> </a>
                         </p>
-                        <p className="resume_btn_container"> <a className="resume_btn" href="./doc/Ritwik's%20Resume.pdf" >Download CV</a> </p>
+                        {/* <p className="resume_btn_container"> <a className="resume_btn" href="./doc/Ritwik's%20Resume" target="_blank" >Download CV</a> </p> */}
+                        <p className="resume_btn_container"> <Link className="resume_btn" to="/resume" target="_blank" >Download CV</Link> </p>
                         {/* <a className="resume_btn" href="./doc/Resume.pdf" download>Download CV</a> */}
                     </div>
 
